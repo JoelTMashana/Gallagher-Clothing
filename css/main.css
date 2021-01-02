@@ -1,0 +1,344 @@
+/*
+light gray #A6A7AB
+Dark gray #202022
+Sand #CCBCA9
+Off-white #EFF0F2
+Dark sand #76655B
+*/
+
+body{
+    font-family: Staatliches, Roboto, Heebo, Arial, Helvetica;
+    background-color: #EFF0F2;
+  
+    
+}
+
+/*-- 
+      HEADER 
+----*/
+
+/*background image*/
+.header-homepage {
+    background-image: url("../imgcs50ide/Banner-image-1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+
+/*header*/
+
+.header-styles{
+    color: 202022;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+ /*ion-icon*/
+    
+ion-icon {
+    margin-top: 10px;;
+    margin-right: 10px;
+    color: #202022;
+}
+
+/*ion icon on hover*/
+ion-icon:hover{
+    color:#CCBCA9;
+}
+
+/*nav*/
+.nav-styles{
+    color: #202022;
+    text-decoration: none;
+}
+
+/*nav on hover*/
+.nav-styles:hover{
+    color: #CCBCA9;
+}
+
+/*rectangle*/
+.rectangle-one {
+    height: 200px;
+    width:1000px;
+    background-color: #202022;
+    margin-top: 300px;
+    opacity: 0.5;
+  }
+
+
+
+  /*-- 
+      TREDNING NOW / NEW ARRIVALS
+----*/
+
+/*heading*/
+
+.trending-now-heading-styles{
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+/*images*/
+.trending-now-image-styles{
+    width: 500px;
+    height: 650px;
+    margin: 20px 50px;
+}
+/*product names*/
+.product-name{
+    margin-left: 50px;
+}
+
+.product-category{
+    margin-left: 50px;
+    color: #A6A7AB;
+}
+/*product prices*/
+
+span{
+    position: relative;
+    bottom: 9%;
+    left: 83%;
+}
+
+  /*-- 
+      LATEST LOOK
+----*/
+
+ /*container styles*/
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  /*img styles*/
+  .container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+   
+  }
+  
+   /*button styles*/
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #A6A7AB;
+    color: #EFF0F2;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+
+   /*button over effects*/
+  .container .btn:hover {
+    background-color:  #202022;
+  }
+
+  .rectangle-two{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #202022;
+    opacity: 0.5;
+    top: 235.2%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+   /*-- 
+      COMING SOON
+----*/
+
+.carousel-image{
+    width: 400x;
+    height: auto;
+    
+}
+
+.rectangle-three{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #202022;
+    opacity: 0.5;
+    margin-top: 19%;
+    z-index: -1;
+    
+}
+
+/*-- 
+      FOOTER  
+----*/
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 270px;
+    background-color: #202022;
+    overflow: hidden;
+}
+
+/*heading styles*/
+footer h6{
+    color: #A6A7AB;
+    text-align: center;
+    position: relative;
+    right: 97px;
+}
+
+/*social media icons styles*/
+.social-media{ 
+    position: relative;
+    color: #76655B;
+    left: 38.5%;
+}
+/*social media icon styles on hover*/
+.social-media:hover{
+    color: #CCBCA9
+}
+
+/*group of elements*/
+.follow-us{
+    position: relative;
+    top: 45%;
+    left: 130px; 
+}
+
+/*heading and form styles*/
+
+footer h4 {
+    padding-top: 40px;
+}
+
+.subscribe-text{
+    position: relative;
+    right: 33%;
+}
+
+/*group of elements*/
+.stay-in-the-know{
+    position: relative;
+    left: 60% ;
+}
+  /*-- 
+      NEWSLETTER  
+----*/
+
+article{
+ background-color: #A6A7AB;  
+}
+
+.newsletter-header{
+    position: relative;
+    left: 15px;
+    color: #A6A7AB;
+}
+
+.my-btn{
+    background-color:#76655B ;
+}
+.my-btn:hover{
+    background-color: #CCBCA9;
+}
+
+.form{
+    position: relative;
+    top: 30%;
+}
+
+
+/*-- 
+      STORE
+----*/
+
+.header-store{
+    background-image: url("../imgcs50ide/Banner-image-2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: hidden
+}
+/*-- 
+      BLOG
+----*/
+
+.header-blog{
+    background-image: url("../imgcs50ide/Banner-image-3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: hidden 
+}
+
+.blog-text{
+     font-family: Roboto;
+     font-weight: 400;
+     font-size: 1.1rem;
+}
+
+
+/*-- 
+      ABOUT  
+----*/
+
+.header-about{
+    background-image: url("../imgcs50ide/Banner-image-4.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: hidden 
+}
+
+.about-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.1rem; 
+}
+
+/*-- 
+      CONTACT 
+----*/
+
+.header-contact{
+    background-image: url("../imgcs50ide/Banner-image-5.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: hidden 
+}
+
+
+form h6{
+    text-align: center;
+}
+
+.my-submit{
+    position: relative;
+    margin-top: 40px;
+}
